@@ -22,7 +22,7 @@
   <body>
     <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
     <header>
-      <h1>Vaanguard</h1>
+      <h1 class="logo">Vaanguard</h1>
       <h2>Main Navigation</h2>
       <h2>About</h2>
       <h2>Services</h2>
@@ -30,19 +30,21 @@
     </header>
     <!--  -->
     <section class="hero">
-      <div>
-        <h2>Innovation & Investment</h2>
-        <p>
-          We empower businesses to lead the future with high-impact strategies,
-          market intelligence, and financial solutions that drive success.
-          Request a Consultation
-        </p>
-        <button>Request a Consultation</button>
+      <div class="container">
+        <div class="text-wrapper">
+          <h2>Innovation & Investment</h2>
+          <p>
+            We empower businesses to lead the future with high-impact
+            strategies, market intelligence, and financial solutions that drive
+            success. Request a Consultation
+          </p>
+          <button>Request a Consultation</button>
+        </div>
       </div>
     </section>
     <!--  -->
-    <section class="expertise">
-      <h2>Our Expertise. Your Edge.</h2>
+    <section class="container" id="expertise">
+      <h2 class="animate">Our Expertise. Your Edge.</h2>
       <p>
         We redefine success by leveraging AI-driven analytics, market
         intelligence, and high-yield investment strategies to propel businesses
@@ -51,41 +53,42 @@
       </p>
     </section>
     <!--  -->
-    <section>
-      <h2>What We Offer</h2>
+    <section class="container" id="offer">
+      <h2 class="animate">What We Offer</h2>
+
       <div class="cards-wrapper">
         <div class="card">
-          <h3>Strategic Growth Consulting</h3>
+          <h3 class="animate">Strategic Growth Consulting</h3>
           <p>
             Unlock new revenue streams and optimize market expansion strategies.
           </p>
         </div>
         <div class="card">
-          <h3>High-Impact Investment Solutions</h3>
+          <h3 class="animate">High-Impact Investment Solutions</h3>
           <p>Maximize returns with data-driven portfolio management.</p>
         </div>
         <div class="card">
-          <h3>Business Acceleration & Mergers</h3>
+          <h3 class="animate">Business Acceleration & Mergers</h3>
           <p>
             Identify opportunities for rapid growth and high-value acquisitions.
           </p>
         </div>
         <div class="card">
-          <h3>Digital Transformation</h3>
+          <h3 class="animate">Digital Transformation</h3>
           <p>
             Stay at the forefront of industry advancements with AI, blockchain,
             and automation.
           </p>
         </div>
         <div class="card">
-          <h3>Exclusive Executive Advisory Services</h3>
+          <h3 class="animate">Exclusive Executive Advisory Services</h3>
           <p>
             Personalized insights and leadership support for C-suite executives
             and high-net-worth investors.
           </p>
         </div>
         <div class="card">
-          <h3>Corporate Innovation</h3>
+          <h3 class="animate">Corporate Innovation</h3>
           <p>
             Strategic implementation of new ideas, technologies, and processes
             to drive business growth, enhance competitive advantage, and adapt
@@ -93,7 +96,7 @@
           </p>
         </div>
         <div class="card">
-          <h2>Proven Results</h2>
+          <h2 class="animate">Proven Results</h2>
           <p>
             Our data-driven strategies have delivered outstanding ROI, leading
             to significant revenue growth.
@@ -102,9 +105,9 @@
       </div>
     </section>
     <!--  -->
-    <section>
-      <h3>Profits</h3>
-      <table>
+    <section id="results">
+      <h3 class="animate">Profits</h3>
+      <table class="results-table">
         <thead>
           <th>Year</th>
           <th>Revenue ($M)</th>
@@ -147,8 +150,8 @@
         </tbody>
       </table>
     </section>
-    <section>
-      <h3>Growth</h3>
+    <section class="bar-wrapper">
+      <h3 class="animate">Growth</h3>
       <!-- CODE PROVIDED FOR YOU, NOTHING TO DO FOR THE BAR CHART IN THE HTML-->
       <div id="bar-chart">
         <div class="bar" data-year="2020" style="--height: 30%"></div>
@@ -158,8 +161,8 @@
         <div class="bar" data-year="2024" style="--height: 100%"></div>
       </div>
     </section>
-    <section>
-      <h2>Contact Us</h2>
+    <section id="contact">
+      <h2 class="animate">Contact Us</h2>
       <p>
         Want to take your business to the next level? Get in touch with our
         elite team today.
@@ -209,6 +212,7 @@
       <button type="submit">Submit</button>
     </section>
     <footer>
+      <p>For educational purposes only.</p>
       <p>Email: info@vaanguard.com</p>
       <p>Phone: 480.123.4567</p>
     </footer>
