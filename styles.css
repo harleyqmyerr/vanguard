@@ -344,7 +344,29 @@ input:checked ~ label:not(.steps) span:after {
 }
 /* results */
 #results {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2rem 0rem;
 }
+#results table {
+  margin: 1rem 0rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--black);
+  color: var(--white);
+}
+#results th,
+#results td {
+  padding: 1rem 0rem;
+  text-align: center;
+  border: 1px solid var(--charcoal);
+}
+
+tbody tr:nth-child(2),
+tbody tr:nth-child(4) {
+  background-color: var(--charcoal);
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
   display: grid;
