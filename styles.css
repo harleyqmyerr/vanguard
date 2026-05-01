@@ -508,6 +508,49 @@ button:hover {
 }
 /* MEDIA QUERIES (MEDIUM) */
 @media (min-width: 600px) {
+  nav label,
+  nav input {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    overflow: visible;
+    max-height: unset;
+  }
+  nav ul a {
+    font-size: 1rem;
+  }
+  #results {
+    grid-template-columns: 1fr 1fr;
+  }
+  .results-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .results-container div {
+    width: 50%;
+  }
+  .cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #offer .card {
+    width: calc(50%-2.5rem);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #offer .card {
+    width: calc(33%-2.5rem);
+  }
 }
 /*  */
 
